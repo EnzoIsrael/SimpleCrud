@@ -1,0 +1,24 @@
+a,body,h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	font-size: 16px;
+}
+
+p{
+	letter-spacing: .5px;
+	font-size: 1em;
+}
+
+.fi-plus{
+	color: #f04124;
+	border-color: #cf2a0e;
+	cursor: pointer; 
+	line-height: 72px;
+	transition: 0.3s;
+	font-size: 2.75em;
+}
+.fi-plus:hover{
+	color: #cf2a0e;
+}

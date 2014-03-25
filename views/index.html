@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Esto va ser un blog en foundation</title>
+	<link rel="stylesheet" href="/css/foundation.css" />
+	<link rel="stylesheet" href="/css/foundation-icons.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/main.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/vendor/underscore-min.js"></script>
+    <script src="/js/vendor/backbone-min.js"></script>
+    <script src="/js/vendor/swig.min.js"></script>
+
+    
+</head>
+<body>
+	<div class="contain-to-grid sticky" data-options="sticky_on: large">
+		
+  <nav class="top-bar" data-topbar>
+    ...
+  </nav>
+</div>
+	<header id="navMenu" class="row">
+		<div class="small-10 medium-11 large-11 columns"><h1>Simple CRUD Backbone</h1></div>
+		<div calss="small-1 columns"><i class="fi-plus" title="New Post"></i></div>
+	</header>
+	<section class="row content">
+		<section class="small-12 columns">
+			<article class="row panel">
+				<h2>titulo de post</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, deleniti, enim saepe illum temporibus facere dolorem nemo est! Temporibus, veritatis, tempore non reprehenderit illo voluptatum expedita beatae commodi rem aliquam.</p>
+			<a href="" class="button small">read more</a>
+			<a href="#" class="tiny alert round button split right">Options <span data-dropdown="drop"></span></a><br>
+			<ul id="drop" class="f-dropdown" data-dropdown-content>
+			  <li><a href="#">Update</a></li>
+			  <li><a href="#">Delete</a></li>
+			</ul>
+			</article>	
+		</section>
+		
+	</section>	
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/init.js"></script>
+    <script src="/js/backbone/views/menu.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
